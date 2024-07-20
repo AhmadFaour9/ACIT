@@ -61,4 +61,4 @@ This project is an online course platform designed for an academic company that 
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/your-username/ACIT.git
+   https://github.com/AhmadFaour9/ACIT.git
