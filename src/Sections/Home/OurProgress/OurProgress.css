@@ -1,0 +1,16 @@
+.content {
+    background: linear-gradient(110.23deg, rgba(255, 255, 255, 0.5) -48.01%, rgba(131, 221, 255, 0.5) 371.76%);    width: 100%;
+    height: fit-content;
+}
+
+.progresses {
+    padding-top: 150px;
+    margin-top: 0px;
+}
+
+@media (max-width:400px) {
+    .progresses {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+}

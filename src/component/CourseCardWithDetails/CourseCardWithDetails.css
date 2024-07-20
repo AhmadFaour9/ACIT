@@ -1,0 +1,155 @@
+.course-detail {
+    width: 540.51px;
+    height: 254.29px;
+    position: relative;
+    margin:20px;
+   
+}
+
+.card-course {
+    padding-right: 40px;
+
+}
+
+.course-detail p {
+    padding: 20px
+}
+
+.img {
+    width: 197.51px;
+    height: 254.29px;
+    position: absolute;
+    z-index: 3;
+    right: -160px;}
+.img .rate{
+    translate: 0px -50px;
+}
+.img img {
+    width: 197.51px;
+    height: 254px;
+    border-radius: 160px 160px 22px 22px;
+    border: 6px solid #13A3D9
+}
+
+.card-course {
+    width: 353px;
+    height: 210px;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px 0px #39C0C033;
+    align-self: flex-end;
+}
+
+div .title-card {
+    width: 295px;
+    height: 42px;
+    font-family: Cairo;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: right;
+    color: #0B325C;
+    align-self: flex-end;
+
+}
+
+div .date {
+    width: 115.65px;
+    height: 24px;
+    font-family: Cairo;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    color: #39C0C09E;
+
+
+}
+
+div .course-number {
+    font-family: Cairo;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: right;
+    color: #1A457B9E;
+    margin: 0;
+    padding: 0px;
+    margin-top: -10px;
+}
+
+.buttons {
+    margin-top:20px;
+    height: 100px;
+}
+
+div .price {
+    /* position:absolute; */
+    bottom: 10px;
+    right: 40px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    height: 42px;
+
+    border-radius: 22px 22px 0px 0px;
+    border-width: 2px, 2px, 0px, 0px;
+    border-style: solid;
+    border-color: #13A3D9;
+    border-bottom-color: transparent;
+    opacity: 0px;
+    align-self: end;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    color: #39c0c0f8;
+
+}
+div .button{
+margin-left:10px;
+}
+div .price span {
+    color: black;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 16.5px;
+    text-align: left;
+
+
+}
+
+@media (max-width:400px) {
+    .top-card-with-detailes{
+        gap: 0px !important;
+    }
+    .course-card-detail {
+        gap: 0px !important;
+        margin:0 !important;
+        padding:0 !important;
+    }
+   .course-detail{
+    align-items: center;
+    justify-content: left;
+    transform: scale(.65);
+    gap:0 !important;
+    margin:0 !important;
+    padding:0 !important;
+
+   }
+   .cards{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    right: 20px;
+}
+}

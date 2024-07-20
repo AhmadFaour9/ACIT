@@ -1,0 +1,198 @@
+.opinions {
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    direction: ltr;
+}
+
+div .square-radius {
+    background-color: #14BCFB;
+    border-radius: 0px 0px 15px 15px;
+    width: 268px;
+    height: 500px;
+    margin-left: 10%;
+    opacity: 0px;
+    -webkit-border-radius: 0px 0px 15px 15px;
+    -moz-border-radius: 0px 0px 15px 15px;
+    -ms-border-radius: 0px 0px 15px 15px;
+    -o-border-radius: 0px 0px 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div .square-radius img {
+    width: 242px;
+    height: 382px;
+    translate: 0px 0;
+}
+
+div .square-radius img[alt='border-women-man-photo'] {
+    height: 382px;
+    translate: 265px 10px;
+
+}
+
+div div.chat {
+    width: 754.5px;
+    height: 379.5px;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+
+div .chat .title-blue {
+    margin-top: 50px !important;
+    text-align: right;
+    margin-right: 0px !important;
+
+}
+
+
+div.text-for-openion {
+    width: 572px;
+    height: max-content;
+    position: relative;
+}
+
+div.text-for-openion p {
+    width: inherit;
+    height: inherit;
+    font-family: Cairo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    direction: rtl;
+
+
+
+}
+
+.chat .chat-img {
+    position: absolute;
+    right: 20px
+}
+
+@media (max-width:400px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .opinions {
+        height: 890px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .square-radius {
+
+        width: 95px !important;
+        translate: -176% 0px;
+        display: flex !important;
+        align-items: start !important;
+        justify-content: center !important;
+        height: 729px !important;
+    }
+
+    .square-radius .women-man-pic {
+        translate: 0px 100px;
+    }
+
+    .square-radius .women-man-pic img {
+        width: 239.55px;
+        height: 292.21px;
+        translate: 20px 0px;
+
+
+    }
+
+    .square-radius .women-man-pic img::before {
+        content: '';
+        border: #14BCFB 2px solid;
+        translate: 20px 0px;
+    }
+
+    div .square-radius img[alt="border-women-man-photo"] {
+        height: 382px;
+        translate: 275px -30px;
+        transform: scaleY(.76);
+        -webkit-transform: scaleY(.76);
+        -moz-transform: scaleY(.76);
+        -ms-transform: scaleY(.76);
+        -o-transform: scaleY(.76);
+    }
+
+    .square-radius+div {
+        width: 100%;
+    }
+
+
+
+    div div.chat {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        translate: 0px -300px;
+        width: 100%;
+    }
+
+    div.container-text {
+        align-items: center !important;
+
+    }
+
+    div.text-for-openion {
+        width: 90%;
+    }
+
+    div.text-for-openion p {
+        font-size: 10px;
+    }
+
+    .chat .chat-img {
+        width: 111%;
+        height: 115%;
+        translate: 30px 66px;
+    }
+
+    .top-title {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .top-title .title-blue {
+        position: absolute;
+        top: 0%;
+        width: 100%;
+
+
+    }
+
+    div .chat .title-blue {
+        font-size: 14px;
+        position: relative;
+        width: 85%;
+    }
+
+    div .chat p {
+        margin-bottom: 0px;
+        width: auto;
+    }
+
+    div .chat .rate {
+        margin-top: 0px;
+        transform: scale(.75);
+        margin-right: -14px;
+        width: 113%;
+        justify-content: end !important;
+    }
+
+}

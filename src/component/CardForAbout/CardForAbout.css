@@ -1,0 +1,108 @@
+.card {
+    border-radius: 23px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    direction: rtl;
+    text-align: right;
+    height: 274px !important;
+    position: relative;
+    -webkit-border-radius: 23px !important;
+    -moz-border-radius: 23px !important;
+    -ms-border-radius: 23px !important;
+    -o-border-radius: 23px !important;
+}
+
+.card img {
+    border-radius: 23px 23px 0 0 !important;
+
+}
+
+.card.rounded-3 {
+    border-radius: 23px !important;
+    height: 100% !important;
+    margin-right: 15px;
+}
+
+.card .card-body {
+    padding-top: 0px;
+}
+
+.card.rounded-3 img {
+    border-radius: 23px !important;
+    -webkit-border-radius: 23px !important;
+    -moz-border-radius: 23px !important;
+    -ms-border-radius: 23px !important;
+    -o-border-radius: 23px !important;
+    height: 100% !important;
+}
+
+.card .card-title {
+    font-family: Cairo;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 41px;
+    margin-bottom: 0px;
+}
+
+.card .card-text.cont {
+    font-family: 'Cairo', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19px;
+    margin-bottom: 0px;
+}
+
+.card .card-text {
+    text-align: right;
+}
+
+.card-body .btn-primary {
+    position: absolute;
+    left: -10px;
+    top: 39%;
+    color: white;
+    border-radius: 0% !important;
+    -webkit-border-radius: 0% !important;
+    -moz-border-radius: 0% !important;
+    -ms-border-radius: 0% !important;
+    -o-border-radius: 0% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:400px) {
+    .card {
+        border-radius: 0px !important;
+        width: auto;
+        -webkit-border-radius: 0px !important;
+        -moz-border-radius: 0px !important;
+        -ms-border-radius: 0px !important;
+        -o-border-radius: 0px !important;
+    }
+
+    .card-body .btn-primary {
+        translate: 0px -18px;
+    }
+
+    .card.rounded-3 {
+        margin-right: 0px;
+        width: inherit;
+    }
+
+    .card.rounded-3 img {
+        border-radius: 0px !important;
+        -webkit-border-radius: 0px !important;
+        -moz-border-radius: 0px !important;
+        -ms-border-radius: 0px !important;
+        -o-border-radius: 0px !important;
+    }
+
+    .card img {
+        border-radius: 0 0 0 0 !important;
+    }
+
+
+}

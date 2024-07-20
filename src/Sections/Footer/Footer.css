@@ -1,0 +1,42 @@
+.footer {
+    height: 90vh;
+    background-color: #012A56;
+    direction: rtl;
+}
+
+.footer div {
+    padding: 50px;
+}
+.para.header {
+
+
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height */
+text-align: right;
+width: max-content;
+color: #FEFEFE;
+
+
+}
+.para.items {
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+text-align: right;
+text-transform: capitalize;
+
+color: #FEFEFE;
+width: max-content;
+
+}
+@media (max-width:400px) {
+    .footer {
+        height: fit-content;
+    }
+}

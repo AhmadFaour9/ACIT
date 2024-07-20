@@ -1,0 +1,74 @@
+.pay-page {
+    background: linear-gradient(110.23deg, rgba(255, 255, 255, 0.5) -48.01%, rgba(131, 221, 255, 0.5) 371.76%);
+    display: flex;
+  justify-content: center;
+}
+.top-of-pay {
+    height: 25vh;
+    background-color: #13A3D9;
+
+}
+
+.top-of-pay .topping-sec {
+    column-gap: 10px;
+}
+
+.table-payes {
+    border-radius: 15px;
+    margin-right: 5%;
+    box-shadow: 0px 4px 24px 0px #13A3D93D;
+    background-color: #fff;
+}
+
+.summaryes {
+    border-radius: 15px;
+    box-shadow: 0px 4px 24px 0px #13A3D93D;
+    padding: 50px;
+    width: 30% !important;
+    background-color: #fff;
+}
+
+.header-pay .bg {
+    position: absolute;
+    right: 0 !important;
+    width:500px;
+    z-index: -1;
+}
+
+.header-pay p {
+    text-align: right;
+    font-family: Cairo;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 59.97px;
+    color: #095F90;
+    padding:20px;
+    translate: -90px 65px;
+}
+
+
+@media (max-width:400px) {
+    .table-payes {
+        margin:0px;
+    }
+    .summaryes {
+        width: 100% !important;
+    }
+
+    .top-of-pay .topping-sec {
+        column-gap: 0px;
+        margin-bottom: 20px;
+    }
+    .header-pay p {
+        width: 100%;
+    text-align: center;
+    translate: 0px 0px;
+    font-size: 22px;
+
+    }
+    .header-pay .bg {
+    right:75%;
+    top:20%;
+    translate: -86px;
+    }
+}

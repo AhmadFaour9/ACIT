@@ -1,0 +1,207 @@
+.login-card {
+    width: 30%;
+    height: 60%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 24px 0px #13A3D93D;
+    padding: 50px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-group label {
+    font-family: Cairo;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 37.48px;
+    text-align: right;
+
+}
+
+.form-group input {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #10244724;
+    background: linear-gradient(293.42deg, #FDFEFF 10.12%, #FFFFFF 93.81%);
+    border-radius: 12px;
+    padding: 0 10px;
+    font-family: Cairo;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.password-input {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.password-input .password-toggle {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #999;
+}
+
+.password-input .password-toggle i {
+    transform: scale(.75);
+    -webkit-transform: scale(.75);
+    -moz-transform: scale(.75);
+    -ms-transform: scale(.75);
+    -o-transform: scale(.75);
+}
+
+.login-btn {
+    width: inherit;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #13A3D9;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.login-btn:hover {
+    background-color: #0e7e9f;
+}
+
+div p.condition-for-login {
+    /* أبق تسجيل دخولي */
+
+    width: fit-content;
+    height: 35px;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 35px;
+    /* identical to box height, or 292% */
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    /* 1 */
+    color: #1A457B;
+
+
+}
+
+div p.condition1-for-login {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 35px;
+    /* identical to box height, or 292% */
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    /* 1 */
+    color: #1A457B;
+
+
+}
+
+div p.condition-for-login input {
+    margin: 0px 0px 0px 10px;
+
+}
+
+div .rounded-5.w-100.create-btn {
+    /* انشاء حساب */
+
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 9px;
+    /* or 56% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    border: 1px solid #39C0C0;
+    color: #14BCFB;
+    height: 38px;
+    background-color: #fff;
+
+}
+
+.or {
+    font-family: Cairo;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.25);
+    position: relative;
+    width: 90%;
+}
+
+div .or::before,
+div .or::after {
+    content: "";
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 90%, rgba(0, 0, 0, 0.25) 10%);
+    width: 48%;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+div .or::before {
+    left: -20px;
+}
+
+div .or::after {
+    right: -20px;
+}
+
+div .error-message.red{
+    color:red;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19px;
+    /* or 56% */
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+@media (max-width:400px) {
+    .login-card{width: 100%;}
+}

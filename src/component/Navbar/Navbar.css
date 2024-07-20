@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: transparent ;
+    position: absolute !important;
+    z-index: 2 !important;
+    width: 100%;
+
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dir {
+    position: sticky;
+    /* top: 10px; */
+    background-color: transparent;
+}
+
+.navbar li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    font-family: 'Cairo';
+    /* تصغير حجم الخط للروابط */
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22.49px;
+    text-align: left;
+    width: max-content;
+    padding: 0.5rem 0.5rem;
+    
+    /* إضافة مسافة بين الروابط */
+}
+
+.navbar a:hover {
+    border: white 1px solid;
+    transition: color 0.5s;
+    border-radius: 12px;
+    padding: 0.5rem 0.5rem;
+
+}
+
+.navbar a.active {
+    color: white;
+    border-radius: 13px;
+    font-family: 'Cairo';
+    transition: color 0.3s;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22.49px;
+    text-align: left;
+
+}
+
+.navbar a.pending {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22.49px;
+    text-align: left;
+
+
+}
+
+.img {
+    width: 93.22px;
+    height: 40.9px;
+    top: 8.63px;
+    left: 1031px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a.navbar-brand.active {
+    border: none 0px;
+
+}
+
+.navbar-brand .logo {
+
+    /* تخصيص 20% للصورة */
+}
+
+.navbar-brand .logo {
+    width: 165.31px;
+    height: 77.29px;
+    border: 0;
+}
+
+.navbar-nav {
+    width: 60%;
+    /* تخصيص 60% للروابط */
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 0.5rem;
+    text-decoration: none;
+    /*تصغيرحجمالخط للروابط*/
+    padding: 0.5rem 0.5rem;
+    /*تصغيرالمسافةبين الروابط*/
+    transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: white;
+    border: white 1px solid;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.navbar-nav .dropdown-menu {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .dropdown-item {
+    color: #13A3D9;
+    font-size: 0.9rem;
+    /* تصغير حجم الخط للعناصر في القائمة المنسدلة */
+    padding: 0.5rem 1.5rem;
+}
+
+.navbar-nav .dropdown-item:hover,
+.navbar-nav .dropdown-item.active,
+.dropdown .dropdown-item {
+    background-color: #f5f5f5;
+    color: #13A3D9;
+}
+
+.navbar-actions {
+    width: 20%;
+    /* تخصيص 20% للأزرار مع القائمة المنسدلة */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-primary {
+    background-color: #13A3D9 !important;
+    border-color: white;
+    font-family: 'Cairo';
+    text-decoration: none;
+    width: 92px;
+    height: 37px;
+    font-size: 12px !important;
+    font-weight: 700;
+    line-height: 22.49px;
+    text-align: center;
+    border-radius: 13px !important;
+    opacity: 0px;
+    border-color: #13A3D9 !important;
+    margin: 10px;
+}
+
+.btn-outline-primary {
+    border-color: #13A3D9;
+    color: white !important;
+    width: 92px;
+    height: 37px;
+    font-family: 'Cairo';
+    text-decoration: none;
+    font-size: 12px !important;
+    font-weight: 700;
+    line-height: 22.49px;
+    text-align: center;
+    border: 1px solid #14BCFB !important;
+    opacity: 0px;
+    font-family: 'Cairo';
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 20.61px;
+    text-align: left;
+    border-radius: 12px !important;
+    margin: 10px;
+}
+
+.btn-outline-primary:hover {
+    background-color: #14BCFB !important;
+    color: white;
+}
+
+.btn-primary:hover,
+.btn-outline-primary:hover {
+    filter: brightness(0.9);
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: white !important;
+}
+
+.btn-secondary:hover {
+    filter: brightness(0.9);
+}
+
+.navbar .nav-item .nav-link,
+.navbar .nav-item .dropdown-item {
+    font-family: 'Cairo';
+    text-decoration: none;
+
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22.49px;
+    text-align: left;
+} 
+div .logo-lang {
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+}
+@media (max-width:400px) {
+    
+#navbarNavDropdown.navbar-collapse{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    box-shadow: 1px 1px 1px gray;
+    left: 0px;
+    top: 100%;
+
+}
+
+#navbarNavDropdown.navbar-collapse  {
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    color:#13A3D9;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+#navbarNavDropdown.navbar-collapse a{
+    color:#13A3D9;
+}
+#navbarNavDropdown.navbar-collapse .btn-primary {
+    border: 1px black solid !important;
+
+}
+#navbarNavDropdown.navbar-collapse .btn-outline-primary {
+    background-color: #f5f5f5;
+    color:#13A3D9 !important;
+}
+div .navbar-toggler{
+    border-radius: 50%;
+    border-color: white;
+    border-width: 2px;
+width:42px;
+height:42px;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+div .navbar-toggler:focus{
+    box-shadow: 0px 0px 1px black inset;
+}
+div .navbar-toggler .navbar-toggler-icon{
+    background-image: url('../../assets/images/Group\ 1000000893.png');
+    transform: scale(1.5,1.5);
+    -webkit-transform: scale(1.5,1.5);
+    -moz-transform: scale(1.5,1.5);
+    -ms-transform: scale(1.5,1.5);
+    -o-transform: scale(1.5,1.5);
+}
+}

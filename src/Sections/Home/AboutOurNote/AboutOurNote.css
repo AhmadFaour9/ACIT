@@ -1,0 +1,22 @@
+.our-notes {
+  height: 100%;
+    padding-bottom: 250px;
+    gap: 30px;
+    direction:ltr
+}
+ .cards-smalls > .row > div {
+    margin-bottom: 30px; 
+ } 
+@media (max-width:400px) {
+    .our-notes {
+        width: auto;
+        margin-bottom: 300px;
+        gap: 0px;
+        height: fit-content;
+    }
+    .cards-smalls .row {
+        width: 390px !important;    }
+        .cards-smalls > .row > div {
+            margin-bottom: 0px ;
+        }
+}

@@ -1,0 +1,130 @@
+.summary {
+    height:fit-content;
+    
+}
+.summary .rows p {
+    font-family: Cairo;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #1A457BBD;
+
+}
+
+.summary h3 {
+    font-family: Cairo;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: right;
+    color: #095F90;
+    margin: 0px 0px 20px 0px;
+}
+
+.radios {
+    direction: inherit;
+}
+
+.radios label {
+    font-family: Cairo;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: right;
+    color: #1A457B;
+height: fit-content;
+display: flex ;
+align-items: center;
+
+}
+
+label input[type='radio'] {
+    accent-color: #13A3D9;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px !important;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #13A3D9;
+    outline: none;
+    cursor: pointer;
+    margin:10px;
+
+}
+label input[type="radio"]:checked {
+    background-color: white;
+    position: relative;
+  }
+  
+  /* Add the dot inside the checked radio button */
+label input[type="radio"]:checked::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #13A3D9;
+  }
+
+  div p.polices {
+    font-family: Cairo;
+font-size: 12px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0.15000000596046448px;
+text-align: left;
+color: #095F90;
+direction:ltr
+
+  }
+  div p.polices span {
+    font-family: Cairo;
+font-size: 12px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0.15000000596046448px;
+text-align: left;
+color: rgb(21, 202, 142);
+text-decoration: underline;  }
+
+  div p.conditions {
+    font-family: Cairo;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: right;
+    
+  }
+  div p.conditions span{
+    font-family: Cairo;
+font-size: 12px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0.15000000596046448px;
+text-align: left;
+color: rgb(21, 202, 142);
+text-decoration: underline;
+  }
+
+div p.conditions input[type='checkbox'] {
+    margin: 0px 5px;
+}
+
+div p.paragraph-after-radio {
+    background: #254AA50D;
+    border-radius: 8px;
+    font-family: Cairo;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: right;
+    padding:5px;
+}

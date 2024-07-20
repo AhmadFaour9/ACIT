@@ -1,0 +1,8 @@
+.courses{
+    height:70vh;
+}
+@media (max-width:400px){
+    .courses{
+        height:40vh;
+    }
+}

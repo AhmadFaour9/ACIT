@@ -1,0 +1,14 @@
+.top-card-with-detailes {
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../assets/images/Vector\ 1.png');
+background-attachment: fixed;
+background-repeat: repeat;
+}
+
+.course-card-detail {
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}

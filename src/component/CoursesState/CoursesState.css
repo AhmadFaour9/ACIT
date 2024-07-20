@@ -1,0 +1,195 @@
+div .table-content li {
+    width: 12%;
+    font-family: Cairo;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22.49px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #095F90DE;
+
+}
+
+div .table-content.list-unstyled.d-flex.align-items-center.justify-content-enenly {
+    translate: -20px 0px;
+}
+
+div .table-content.elements-table li {
+    font-family: Cairo;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    text-align: center;
+    color: #095F90;
+    width: auto;
+
+}
+
+div .table-content.elements-table li span {
+    color: #09A449;
+}
+
+
+.header-for-course-state h3 {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    /* identical to box height, or 32% */
+    text-align: right;
+    color: #13A3D9;
+    margin: 10px 0px 20px 0px !important;
+
+}
+
+.header-for-course-state p {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: #13A3D9 solid 1px;
+    border-radius: 15px;
+    width: 20%;
+    /* دورات اونلاين */
+
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 9px;
+    /* identical to box height, or 64% */
+    text-align: right;
+    padding: 10px;
+    color: #095F90;
+}
+
+div li p.date-gray {
+    color: gray;
+    display: none;
+}
+
+.link-ele {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 29%;
+}
+
+.date-state-price,
+.state-price,
+.name-state-price,
+.index-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.index-name {
+    width: 40%
+}
+
+.name-state-price {
+    width: 66%;
+}
+
+.date-state-price {
+    width: 60%;
+}
+
+.state-price {
+    width: 66%;
+}
+
+@media (max-width:400px) {
+    .header-for-course-state {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2px !important;
+        -webkit-border-radius: 2px !important;
+        -moz-border-radius: 2px !important;
+        -ms-border-radius: 2px !important;
+        -o-border-radius: 2px !important;
+    }
+
+    .header-for-course-state p {
+        width: 60%;
+    }
+
+    div .table-content.elements-table {
+        display: none;
+    }
+
+    .link-ele {
+        flex-direction: column-reverse;
+        width: 40%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .link-ele button {
+        width: 90px;
+        margin-top: 0px;
+    }
+
+    .index-name {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 20%;
+    }
+
+    .index-name li.name-for-course {
+        font-size: 15px !important;
+    }
+
+    .date-state-price {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        height: 100%;
+    }
+
+    .state-price {
+        width: 150px;
+        justify-content: space-evenly;
+    }
+
+    .name-state-price {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 50%;
+        height: 80px;
+    }
+
+    div .table-content.list-unstyled.d-flex.align-items-center.justify-content-enenly {
+        display: none !important;
+    }
+
+    div .col-11 .table-content.list-unstyled.d-flex.align-items-center.justify-content-enenly+hr {
+        color: transparent;
+        display: none !important;
+
+    }
+
+    div li p.date-gray {
+        display: inline;
+        padding: 0px 10px;
+        /* التاريخ: */
+
+
+        font-family: 'Cairo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        /* identical to box height, or 120% */
+        text-align: right;
+
+        color: rgba(9, 95, 144, 0.4);
+
+
+    }
+}

@@ -1,0 +1,41 @@
+.state-page {
+    background: linear-gradient(110.23deg, rgba(255, 255, 255, 0.5) -48.01%, rgba(131, 221, 255, 0.5) 371.76%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.user-section {
+    background-color: white;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 24px 0px #095F901A;
+    height: fit-content;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.course-state-section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 24px 0px #095F901A;
+
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+@media (max-width:400px) {
+    .user-section {
+        width: 90% !important;
+    }
+
+    .course-state-section {
+        width: 90% !important;
+    }
+}

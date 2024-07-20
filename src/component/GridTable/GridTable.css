@@ -1,0 +1,59 @@
+div.table-payes {
+    height: fit-content;
+    padding: 50px 20px;
+}
+div.table-payes table thead tr th {
+    width: 120px;
+    color: #1A457BDE;
+    font-family: Cairo;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22.49px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    
+
+}
+
+
+div.table-payes table tbody tr {}
+
+div.table-payes table tbody tr td {
+    font-family: Cairo;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+
+}
+
+div.table-payes table tbody tr td img {
+    width: 86px;
+    height: 86px;
+    border-radius: 15px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 3px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr {
+    line-height: 1.1;
+}
+@media (max-width:400px) {
+    div.table-payes table thead tr th {
+    font-size: 8px;
+    }
+    div.table-payes table tbody tr td {
+    font-size: 7px;
+    }
+}
